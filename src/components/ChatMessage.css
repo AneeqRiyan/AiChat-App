@@ -1,0 +1,18 @@
+/* src/components/ChatMessage.css */
+.chat-message {
+  max-width: 60%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background-color: #007bff;
+}
+
+.chat-message.bot {
+  align-self: flex-start;
+  background-color: #444;
+}

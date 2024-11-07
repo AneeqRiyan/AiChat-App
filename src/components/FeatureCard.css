@@ -1,0 +1,25 @@
+/* src/components/FeatureCard.css */
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    color: #ddd;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    background-color: #444;
+  }
+  
+  .feature-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+  }
+  
